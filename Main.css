@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color:#a9f5f2;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #2EFEF7;
+}
+body {
+    background-image:url('BackGround.png');
+}
+li a.active {
+    color: white;
+    background-color: #0000FF;
+}
+#downl{
+    background-color: #666;
+    text-align: center;
+}
