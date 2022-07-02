@@ -25,14 +25,17 @@
 			function checkCookie(){
 				var user=getCookie("username");
 				if (user!=""){
-					alert("欢迎 " + user + " 再次访问");
+					document.getElementById("nm").innerHTML=user;
 				}
-				else {
-					user = prompt("请输入你的名字:","");
-  					if (user!="" && user!=null){
-    						setCookie("username",user,30);
-    					}
+				else
+				{
+					document.getElementById("nm").innerHTML="点击登录";
 				}
+			function loginCookie(){
+				user = prompt("请输入你的名字:","");
+  				if (user!="" && user!=null){
+    					setCookie("username",user,30);
+    				}
 			}
 		</script>
 	</head>
@@ -54,8 +57,8 @@
 				</a>
 			</li>
 			<li style="float:right">
-				<a>
-					点击登录
+				<a id="nm">
+					ERROR
 				</a>
 			</li>
 		</ul>
