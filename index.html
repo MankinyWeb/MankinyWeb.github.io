@@ -29,13 +29,11 @@
 				}
 				else
 				{
-					document.getElementById("nm").innerHTML="点击登录";
+					user = prompt("请输入你的名字:","");
+  					if (user!="" && user!=null){
+    						setCookie("username",user,30);
+    					}
 				}
-			function loginCookie(){
-				user = prompt("请输入你的名字:","");
-  				if (user!="" && user!=null){
-    					setCookie("username",user,30);
-    				}
 			}
 		</script>
 	</head>
@@ -54,11 +52,6 @@
 		 	<li>
 				<a href="join.html">
 					 加入
-				</a>
-			</li>
-			<li style="float:right">
-				<a id="nm" oncick="loginCookie()">
-					ERROR
 				</a>
 			</li>
 		</ul>
