@@ -1,0 +1,84 @@
+body{
+    background-image:url('../image/BG.gif');
+	background-repeat:repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+ht {
+    background-color: orange;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+
+li {
+    float: left;
+    background-color: orange;
+}
+
+li.righter{
+    float: right;
+    background-color: orange;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 19px 23px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(206, 0, 0, 0.781);
+}
+
+li a:hover:not(:not(.active)) {
+    background-color: #362101;
+}
+
+li a.active {
+    color: white;
+    background-color: #bb7738;
+}
+
+h1{
+    text-align: center;
+    font-family:"Comic Sans MS", cursive, sans-serif
+}
+
+div{
+    animation: In 1s;
+    -o-animation: In 1s;
+    -webkit-animation: In 1s;
+	display: block;
+    text-align: center;
+	background-color: rgba(161, 161, 161, 0.616);
+    border-radius: 10px;
+	margin-right:200px;
+	margin-left:200px;
+}
+
+@keyframes In{
+    from {opacity:0}
+    to {opacity:1}
+}
+
+@-o-keyframes In{
+    from {opacity:0}
+    to {opacity:1}
+}
+
+@-webkit-keyframes In{
+    from {opacity:0}
+    to {opacity:1}
+}
