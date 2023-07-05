@@ -77,6 +77,7 @@ div.card {
 div.header {
     background-color: #4CAF50;
     color: white;
+    width: 225px;
     padding: 10px;
     font-size: 40px;
 }
