@@ -62,28 +62,45 @@ div{
     -webkit-animation: In 1s;
 	display: block;
     text-align: center;
-	background-color: rgba(161, 161, 161, 0.616);
+    background-color: rgba(161, 161, 161, 0.616);
     border-radius: 10px;
 	margin-right:200px;
 	margin-left:200px;
 }
 
 div.card {
-  width: 250px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
+    background-color: #359438;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 div.header {
+    border-radius: 10px;
+    margin-right: 0px;
+    margin-left:0px;
     background-color: #4CAF50;
     color: white;
-    width: 225px;
+    width: 230px;
     padding: 10px;
     font-size: 40px;
 }
 
 div.container {
+    border-radius: 10px;
     padding: 10px;
+    width: 230px;
+    background-color: #359438;
+    color: rgb(155, 154, 154);
+    margin-right: 0px;
+    margin-left:0px;
+}
+
+#betterbutton{
+    border: 0px;
+    border-radius: 5px;
+    background-color: #4CAF50;
 }
 
 @keyframes In{
