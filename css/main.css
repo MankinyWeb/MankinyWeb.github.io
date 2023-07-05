@@ -64,11 +64,12 @@ div{
     text-align: center;
     background-color: rgba(161, 161, 161, 0.616);
     border-radius: 10px;
-	margin-right:200px;
-	margin-left:200px;
+    margin: 10px;
 }
 
 div.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #359438;
     border-radius: 10px;
     width: 250px;
@@ -103,6 +104,10 @@ div.container {
     background-color: #4CAF50;
 }
 
+#right {
+    float:right;
+}
+
 @keyframes In{
     from {opacity:0}
     to {opacity:1}
@@ -116,4 +121,15 @@ div.container {
 @-webkit-keyframes In{
     from {opacity:0}
     to {opacity:1}
+}
+
+.leftcolumn {   
+    float: left;
+    width: 70%;
+  }
+   
+.rightcolumn {
+    float: right;
+    width: 20%;
+    padding-left: 20px;
 }
