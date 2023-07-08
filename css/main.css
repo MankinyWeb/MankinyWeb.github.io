@@ -127,9 +127,18 @@ div.container {
     float: left;
     width: 70%;
   }
-   
+
 .rightcolumn {
     float: right;
     width: 20%;
     padding-left: 20px;
+}
+
+a {
+color: #68c7d2;
+text-decoration: none;
+transition: color 0.2s ease-in-out;
+}
+a:hover {
+color: #42a0a9;
 }
