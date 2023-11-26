@@ -114,7 +114,7 @@ class 运势 { // 定义运势类
 
 var toDay = new Date();
 
-var day = toDay.getDay();
+var day = toDay.getDate();
 
 function setCookie(cname, cvalue){
     var d = new Date();
